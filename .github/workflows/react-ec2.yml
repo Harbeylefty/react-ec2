@@ -25,4 +25,4 @@ jobs:
       - name: clear contents of var/www/html/*
         run: sudo rm -rf var/www/html/*
       - name: copy dist file
-        run: sudo cp -r dist/* var/www/html
+        run: sudo cp -r dist/* var/www/html/*
